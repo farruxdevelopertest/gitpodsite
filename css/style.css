@@ -1,3 +1,4 @@
+/* FONTS  */
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -30,6 +31,20 @@ ul {
   list-style: none;
 }
 
+body {
+  background: #f5f3f4;
+  font-family: "Roboto", sans-serif;
+}
+
+/* utils class */
+
+.container {
+  padding: 0 65px;
+  max-width: 1310px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 /* header start */
 
 .site-header {
@@ -44,8 +59,7 @@ ul {
   width: 131px;
   height: 40px;
 }
-.site-nav {
-}
+
 .sitenav-list {
   display: flex;
 }
@@ -71,3 +85,66 @@ ul {
 }
 
 /* header end */
+
+/* showcase start */
+.showcase {
+  display: flex;
+  align-items: center;
+  padding-top: 52px;
+  padding-bottom: 176px;
+}
+.showcase-content {
+  width: 550px;
+}
+.showcase-heading {
+  font-size: 80px;
+  line-height: 88px;
+  color: #12100c;
+  margin-bottom: 38px;
+}
+.showcase-text {
+  font-size: 23px;
+  line-height: 32px;
+  color: rgba(18, 16, 12, 0.7);
+  margin-bottom: 48px;
+}
+.showcase-wrapper {
+  display: flex;
+  margin-bottom: 18px;
+}
+.showcase-btn {
+  padding: 12px 46px;
+  display: block;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 22px;
+  text-align: center;
+  color: #12100c;
+  background: #ffae33;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  margin-right: 24px;
+}
+.showcase-wrapper-text {
+  font-size: 16px;
+  line-height: 24px;
+}
+.showcase-social {
+  display: flex;
+}
+.showcase-social-item {
+  margin-right: 28px;
+}
+.showcase-social-link {
+  display: block;
+}
+.showcase-social-icon {
+  width: 29px;
+  height: 29px;
+}
+.showcase-img {
+  display: block;
+  width: 630px;
+  height: 652px;
+}
+/* showcase end */
