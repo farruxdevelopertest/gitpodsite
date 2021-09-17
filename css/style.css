@@ -1,0 +1,73 @@
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../fonts/roboto-v27-latin-regular.woff2") format("woff2"),
+    url("../fonts/roboto-v27-latin-regular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../fonts/roboto-v27-latin-700.woff2") format("woff2"),
+    url("../fonts/roboto-v27-latin-700.woff") format("woff");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+/* header start */
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 32px;
+}
+.site-logo {
+  display: block;
+}
+.sitelogo-img {
+  width: 131px;
+  height: 40px;
+}
+.site-nav {
+}
+.sitenav-list {
+  display: flex;
+}
+.sitenav-item:not(:last-child) {
+  margin-right: 48px;
+}
+
+.sitenav-link {
+  color: rgba(18, 16, 12, 0.7);
+  font-size: 16px;
+  line-height: 24px;
+}
+.sitenav-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 22px;
+  background: #12100c;
+  border-radius: 12px;
+  color: #f9f9f9;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+/* header end */
