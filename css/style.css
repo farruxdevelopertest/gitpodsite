@@ -167,3 +167,60 @@ body {
   color: #999795;
 }
 /* project end */
+
+/* env start */
+.env {
+  padding-top: 339px;
+  padding-bottom: 337px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.env-content {
+  width: 655px;
+}
+.env-heading {
+  font-size: 32px;
+  line-height: 40px;
+  color: #12100c;
+  margin-bottom: 8px;
+}
+.env-text {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 151px;
+}
+.env-wrapper {
+}
+.btn {
+}
+.btn-yellow {
+  padding: 7px 18px 9px 18px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #12100c;
+  background: #ffae33;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10.5px;
+  margin-right: 16px;
+}
+.btn-pink {
+  padding: 7px 24px 9px 24px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #12100c;
+  background: #ffb0ae;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+  border-radius: 10.5px;
+}
+.env-img {
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.08);
+  border-radius: 20px;
+  width: 590px;
+  height: 472px;
+}
+/* env end */
