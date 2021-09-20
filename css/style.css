@@ -148,3 +148,21 @@ body {
   height: 652px;
 }
 /* showcase end */
+
+/* project start */
+.project {
+  text-align: center;
+}
+.project-heading {
+  font-size: 54px;
+  line-height: 64px;
+  color: #12100c;
+}
+.project-text {
+  font-weight: normal;
+  font-size: 54px;
+  line-height: 64px;
+  text-decoration: line-through;
+  color: #999795;
+}
+/* project end */
