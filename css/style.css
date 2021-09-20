@@ -40,9 +40,9 @@ body {
 
 .container {
   padding: 0 65px;
-  max-width: 1310px;
+  max-width: 1440px;
   width: 100%;
-  margin: 0 auto;
+  margin: auto;
 }
 
 /* header start */
@@ -95,6 +95,7 @@ body {
 }
 .showcase-content {
   width: 550px;
+  margin-right: 130px;
 }
 .showcase-heading {
   font-size: 80px;
